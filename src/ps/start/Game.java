@@ -1,15 +1,18 @@
 package ps.start;
 
+import javax.xml.bind.SchemaOutputResolver;
+
 public class Game {
 	public static final int MAX_MISSES=5;
 	private String answer;
 	private String hits;
 	private String misses;
 
-	public Game(String answer){
-		this.answer=answer.toLowerCase();  // wazne czy dobra litera nie czy dobry Case
+	public Game(Answers answer){
+		this.answer=answer.answerLottery().toLowerCase();  // wazne czy dobra litera nie czy dobry Case
 		hits = "";
 		misses="";
+		System.out.println("It's time to start. Your word is on "+answer.difLevel() + " difficult level");
 	}
 
 	// 1.letter ze scanner, normalizacja znaku,

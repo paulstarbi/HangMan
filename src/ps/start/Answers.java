@@ -31,6 +31,18 @@ public class Answers {
         return this.answer;
     }
 
+    public String difLevel(){
+        String level = "";
+        int i = this.answer.length();
+        if (i>0 && i<=5){
+            return level="Easy";
+        } else if (i<=10){
+            return level="Medium";
+        } else {
+            return level = "Hard";
+        }
+    }
+
     String WordList = "Polska, niemcy, francja, kasia, polak, pawel, dyskryminacja, zobaczymy, nowoczesnosc, " +
             "anglia, zoBaczymy, nieWierm, brakPomyslu, muszeDodacLadowanieZPliku";
 

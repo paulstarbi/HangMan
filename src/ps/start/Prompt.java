@@ -14,7 +14,7 @@ public class Prompt {
 		boolean isHint=false;
 		Scanner scanner = new Scanner(System.in);
 		boolean isAccepteble = false;
-		
+
 		do {
 			System.out.println("Enter a letter: ");
 			String guessInput = scanner.nextLine();
@@ -30,6 +30,7 @@ public class Prompt {
 		return isHint;
 		
 	}
+
 
 	public void displayProgress(){
 		System.out.printf("You have %d tries left to solve : %s%n",game.getRemaingTries(), game.getCurrentProgress());
