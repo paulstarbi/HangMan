@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b5fc16c-9da6-4e15-b02e-c2ce32a1f430" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HangMan/ps/start/Menu.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ps/start/Menu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HangMan/ps/start/Answers.class" afterPath="$PROJECT_DIR$/out/production/HangMan/ps/start/Answers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HangMan/ps/start/Game.class" afterPath="$PROJECT_DIR$/out/production/HangMan/ps/start/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HangMan/ps/start/HangMan.class" afterPath="$PROJECT_DIR$/out/production/HangMan/ps/start/HangMan.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HangMan/ps/start/Prompt.class" afterPath="$PROJECT_DIR$/out/production/HangMan/ps/start/Prompt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ps/start/Answers.java" afterPath="$PROJECT_DIR$/src/ps/start/Answers.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ps/start/Game.java" afterPath="$PROJECT_DIR$/src/ps/start/Game.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ps/start/HangMan.java" afterPath="$PROJECT_DIR$/src/ps/start/HangMan.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ps/start/Prompt.java" afterPath="$PROJECT_DIR$/src/ps/start/Prompt.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,18 +27,28 @@
       <file leaf-file-name="HangMan.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ps/start/HangMan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Answers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ps/start/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Answers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ps/start/Answers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="153">
+              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +59,8 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ps/start/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="-984">
+              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -54,8 +69,8 @@
       <file leaf-file-name="Prompt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ps/start/Prompt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -73,6 +88,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>package ps\.start\;\n\npublic class Game \{\n\	public static final int MAX_MISSES\=7\;\n\	private String answer\;\n\	private String hits\;\n\	private String misses\;\n\	\n\	public Game\(String answer\)\{\n\	\	this\.answer\=answer\.toLowerCase\(\)\;  \/\/ wazne czy dobra litera nie czy dobry Case\n\	\	hits \= \&quot;\&quot;\;\n\	\	misses\=\&quot;\&quot;\;\n\	\}\n\	\n\	\/\/ 1\.letter ze scanner\, normalizacja znaku\, \n\	\/\/ 2\.sprawdzenie czy jest w odpowiedzi\, \n\	\/\/ 3\.jak tak lo litera do trafionych\, jak nie to literka do misses\n\	\n\	public boolean applayGuess\(char letter\)\{\n\	\	letter \= normalizeGuess\(letter\)\;\n\	\	boolean isHit \= answer\.indexOf\(letter\)\!\=\-1\;\n\	\	if\(isHit\)\{\n\	\	\	hits\+\=letter\;\n\	\	\}else \{\n\	\	\	misses\+\=letter\;\n\	\	\}\n\	\	return isHit\;\n\	\}\n\	public boolean applayGuess\(String letters\)\{\n\	\	if\(letters\.length\(\)\=\=0\)\{\n\	\	\	throw new IllegalArgumentException\(\&quot;No letter found\\n\&quot;\)\;\n\	\	\}\n\	\	return applayGuess\(letters\.charAt\(0\)\)\;\n\	\}\n\n\n\	\/\/1\.sprawdzenie czy podana zostala litera\, jak nie to rzuca wyjatkiem\, dodatkowo noramlizuje Case literki\n\	\/\/2\.sprawdzenie czy litera nie byla juz wczesniej podana \- sprawdza i w hits i w misses\n\	\n\	private char normalizeGuess\(char letter\)\{\n\	\	if \(\!Character\.isLetter\(letter\)\)\{\n\	\	\	throw new IllegalArgumentException\(\&quot;A letter is required\&quot;\)\;\n\	\	\}\n\	\	letter \= Character\.toLowerCase\(letter\)\;\n\	\	\n\	\	\n\	\	if \(misses\.indexOf\(letter\)\!\=\-1 \|\| hits\.indexOf\(letter\)\!\=\-1\)\{\n\	\	\	throw new IllegalArgumentException\(\&quot;Letter has alredy been guess\!\&quot;\)\;\n\	\	\}\n\	\	\n\	\	return letter\;\n\	\}\n\	\n\	public int getRemaingTries\(\)\{\n\	\	return MAX_MISSES\-misses\.length\(\)\;\n\	\}\n\	public String getCurrentProgress\(\)\{\n\	\	String progress \= \&quot;\&quot;\;\n\	\	for\(char letter\:answer\.toCharArray\(\)\)\{\n\	\	\	char display\=\'\-\'\;\n\	\	\	if\(hits\.indexOf\(letter\)\!\=\-1\)\{\n\	\	\	\	display\=letter\;\n\	\	\	\}\n\	\	\	progress \+\=display\;\n\	\	\}\n\	\	return progress\;\n\	\}\n\	\n\	\/\* ssprawdzenie czy zawodnik juz trafil wszystkie litery z answer\n\	z wykorzystaniem metody getCurrentProgress jak nie ma juz \&quot;\-\&quot; to zwroci \-1\*\/\n\	\n\	public boolean isWon\(\)\{\n\	\	\	\	return getCurrentProgress\(\)\.indexOf\(\'\-\'\) \=\= \-1\;\n\	\}\n\n\	public String getAnswer\(\) \{\n\	\	return answer\;\n\	\}\n\n\	public void setAnswer\(String answer\) \{\n\	\	this\.answer \= answer\;\n\	\}\n\n\}\n</find>
+      <find>package ps\.start\;\nimport java\.io\.\*\;\nimport java\.util\.List\;\nimport java\.util\.ArrayList\;\nimport java\.util\.StringTokenizer\;\n\n\/\*\*\n \* Created by Kasiula on 06\.05\.2017\.\n \*\/\npublic class Answers \{\n    private String answer\;\n    public List \&lt;String\&gt; aArray\;\n    private String level\;\n\n    public String answerLottery \(int dif\)\{\n        StringTokenizer word \= new StringTokenizer\(WordList\, \&quot;\, \&quot;\)\; \/\/pozwala na latwe wydzielanie tokenow z ciagu\n        \/\/stringa\n        aArray \= new ArrayList\&lt;\&gt;\(\)\;\n        while \(word\.hasMoreTokens\(\)\)\{\/\/dodaje wszystkie tokeny\n            aArray\.add\(word\.nextToken\(\)\)\;\n        \}\n        return losowanie\(aArray\,dif\)\;\n    \}\n\n        \/\/ chossing the word according to the difficult level\; \n    public String losowanie\(List\&lt;String\&gt; listOfWords\, int dif\)\{\n        int n\;\n        String word\=\&quot;\&quot;\;\n        boolean flag \= true\;\n        while\(flag\)\{\n        n\=\(int\)\(Math\.random\(\)\*listOfWords\.size\(\)\)\;\n        word \= listOfWords\.get\(n\)\;\n            if \(dif \=\= 1\)\{\n                this\.level \= \&quot;Easy\&quot;\;\n                if \(word\.length\(\)\&lt;10\)\n                    flag\=false\;\n            \} else if \(dif \=\=2\)\{\n                this\.level \= \&quot;Medium\&quot;\;\n                if \(word\.length\(\)\&lt;20 \&amp;\&amp; word\.length\(\)\&gt;10\)\n                    flag\=false\;\n            \}else if \(dif \=\= 3\)\{\n                this\.level \= \&quot;Hard\&quot;\;\n                if \(word\.length\(\)\&gt;20\)\n                    flag \= false\;\n            \}\n        \}\n        this\.answer \= word\;\n        System\.out\.println\(\&quot;Your chosen is \&quot;\+ this\.level \+ \&quot;\. Good Luck \!\!\!\&quot;\)\;\n        return this\.answer\;\n    \}\n\n\n    String WordList \= \&quot;Polska\, niemcy\, francja\, kasia\, polak\, pawel\, dyskryminacja\, zobaczymy\, nowoczesnosc\, \&quot; \+\n            \&quot;anglia\, zoBaczymy\, nieWierm\, brakPomyslu\, muszeDodacLadowanieZPliku\&quot;\;\n\n\}\n</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,10 +105,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/pl/data/structure/CreditorTest.java" />
         <option value="$PROJECT_DIR$/src/ps/testy/TestyMy.java" />
-        <option value="$PROJECT_DIR$/src/ps/start/Answers.java" />
-        <option value="$PROJECT_DIR$/src/ps/start/HangMan.java" />
-        <option value="$PROJECT_DIR$/src/ps/start/Game.java" />
         <option value="$PROJECT_DIR$/src/ps/start/Prompt.java" />
+        <option value="$PROJECT_DIR$/src/ps/start/Game.java" />
+        <option value="$PROJECT_DIR$/src/ps/start/HangMan.java" />
+        <option value="$PROJECT_DIR$/src/ps/start/Answers.java" />
+        <option value="$PROJECT_DIR$/src/ps/start/Menu.java" />
       </list>
     </option>
   </component>
@@ -102,7 +119,9 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
@@ -118,40 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="HangMan">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="HangMan">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ps/start">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,10 +205,44 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HangMan">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="HangMan">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ps/start">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../applicationFX" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -513,31 +532,31 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29968455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39965397" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -545,7 +564,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -554,6 +573,82 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ps/start/HangMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ps/start/Answers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ps/start/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ps/start/Prompt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ps/start/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ps/start/HangMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ps/start/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ps/start/Prompt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ps/start/Answers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ps/start/HangMan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -597,45 +692,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ps/testy/TestyMy.java">
+    <entry file="file://$PROJECT_DIR$/src/ps/testy/TestyMy.java" />
+    <entry file="file://$PROJECT_DIR$/src/ps/start/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ps/start/HangMan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        <state relative-caret-position="-984">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ps/start/Prompt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ps/start/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ps/start/Answers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="153">
+          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ps/start/HangMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ps/start/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>

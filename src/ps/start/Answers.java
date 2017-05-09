@@ -10,38 +10,45 @@ import java.util.StringTokenizer;
 public class Answers {
     private String answer;
     public List <String> aArray;
+    private String level;
 
-
-    public String answerLottery (){
+    public String answerLottery (int dif){
         StringTokenizer word = new StringTokenizer(WordList, ", "); //pozwala na latwe wydzielanie tokenow z ciagu
         //stringa
         aArray = new ArrayList<>();
         while (word.hasMoreTokens()){//dodaje wszystkie tokeny
             aArray.add(word.nextToken());
         }
-        System.out.println("There are "+aArray.size()+" words in our database try to guess correct");
-        return losowanie(aArray);
-
+        return losowanie(aArray,dif);
     }
 
-    public String losowanie(List<String> listOfWords){
+        // chossing the word according to the difficult level;
+    public String losowanie(List<String> listOfWords, int dif){
         int n;
+        String word="";
+        boolean flag = true;
+        while(flag){
         n=(int)(Math.random()*listOfWords.size());
-        this.answer = listOfWords.get(n);
+        word = listOfWords.get(n);
+            if (dif == 1){
+                this.level = "Easy";
+                if (word.length()<10)
+                    flag=false;
+            } else if (dif ==2){
+                this.level = "Medium";
+                if (word.length()<20 && word.length()>10)
+                    flag=false;
+            }else if (dif == 3){
+                this.level = "Hard";
+                if (word.length()>20)
+                    flag = false;
+            }
+        }
+        this.answer = word;
+        System.out.println("Your chosen is "+ this.level + ". Good Luck !!!");
         return this.answer;
     }
 
-    public String difLevel(){
-        String level = "";
-        int i = this.answer.length();
-        if (i>0 && i<=5){
-            return level="Easy";
-        } else if (i<=10){
-            return level="Medium";
-        } else {
-            return level = "Hard";
-        }
-    }
 
     String WordList = "Polska, niemcy, francja, kasia, polak, pawel, dyskryminacja, zobaczymy, nowoczesnosc, " +
             "anglia, zoBaczymy, nieWierm, brakPomyslu, muszeDodacLadowanieZPliku";
